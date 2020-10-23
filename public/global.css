@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+:root {
+  --font: "Josefin Sans", sans-serif;
+  --teal: teal;
+  --gray: gray;
+  --green: #0d6e0d;
+  --blue: lightblue;
+  --crimson: crimson;
+}
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+button,
+button:hover {
+  outline: none;
+}
+.container {
+  max-width: 98%;
+  margin: 0 auto;
+  width: 100%;
+}
